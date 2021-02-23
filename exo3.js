@@ -23,7 +23,8 @@ class Cercle{
 centre1 = new Point(5, 5);
 cercle1 = new Cercle(centre1, 5);
 console.log(cercle1.toString());
-
+console.log(cercle1.containsPoint(centre1));
+console.log(cercle1.containsPoint(new Point(0, 6)));
 
 cercle2 = new Cercle( new Point(3, 3), 3);
 console.log(cercle2.toString());
