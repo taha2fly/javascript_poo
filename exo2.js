@@ -1,4 +1,5 @@
 
+
 class Point{
 	constructor(x, y){
 		this.x = x;
@@ -26,7 +27,7 @@ class Point{
 		return `Point (${this.x}, ${this.y})`;
 	}
 }
-
+module.exports = Point;
 
 p1 = new Point(10, 50);
 console.log(p1.toString());
